@@ -429,11 +429,12 @@ main, .site-header, .site-footer { position: relative; z-index: 1; }
 .case-proof { margin-top: 34px; display: grid; gap: 18px; }
 .stat {
   display: flex; align-items: center; gap: 18px; padding: 20px 22px; border-radius: var(--radius);
-  background: #fff; border: 1px dashed var(--amber-line); box-shadow: var(--shadow-card);
+  background: #fff; border: 1px solid var(--line-strong); box-shadow: var(--shadow-card);
 }
 .stat-num { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.2rem, 4vw, 3rem); letter-spacing: -.04em; line-height: 1; }
+.stat-num small { font-size: .55em; color: var(--blue); margin-left: .05em; }
 .stat-label { color: var(--muted); font-size: 15px; line-height: 1.35; }
-.quote { margin: 0; padding: 22px 24px; border-radius: var(--radius); background: #fff; border: 1px dashed var(--amber-line); position: relative; box-shadow: var(--shadow-card); }
+.quote { margin: 0; padding: 22px 24px; border-radius: var(--radius); background: #fff; border: 1px solid var(--line-strong); position: relative; box-shadow: var(--shadow-card); }
 .quote::before { content: "“"; position: absolute; top: 4px; left: 16px; font-family: var(--font-display); font-size: 56px; line-height: 1; color: rgba(43,120,228,.25); }
 .quote p { font-size: 1.05rem; padding-left: 24px; }
 .quote cite { display: block; margin-top: 10px; padding-left: 24px; font-style: normal; font-size: 13.5px; color: var(--muted-2); }

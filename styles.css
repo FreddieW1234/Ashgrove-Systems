@@ -430,7 +430,6 @@ main, .site-header, .site-footer { position: relative; z-index: 1; }
 .quote cite { display: block; margin-top: 10px; padding-left: 24px; font-style: normal; font-size: 13.5px; color: var(--muted-2); }
 
 .case-visual { position: relative; }
-.board-window { transform-style: preserve-3d; }
 /* BiteBoard mock: mirrors the real app's Orders screen (Inter, #f6f8fa canvas, indigo accent) */
 .bb {
   --bbi: #4f46e5; --bbi-soft: #eef2ff; --bb-line: #e5e7eb; --bb-text: #1f2937; --bb-mute: #6b7280; --bb-faint: #9ca3af;
@@ -607,7 +606,6 @@ main, .site-header, .site-footer { position: relative; z-index: 1; }
 .footer-legal { display: grid; gap: 8px; color: var(--muted-2); font-size: 13px; justify-self: end; text-align: right; max-width: 40ch; }
 
 /* ---------- reveal defaults (JS animates from these) ---------- */
-[data-reveal] { will-change: transform, opacity; }
 
 /* ---------- responsive ---------- */
 @media (max-width: 1100px) {

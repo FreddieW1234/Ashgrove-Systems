@@ -226,7 +226,7 @@
     // Generic reveals
     gsap.utils.toArray("[data-reveal]").forEach(function (el) {
       gsap.from(el, {
-        y: 40, opacity: 0, duration: 1, ease: "power3.out",
+        y: 40, opacity: 0, duration: 1, ease: "power3.out", clearProps: "transform,willChange",
         scrollTrigger: { trigger: el, start: "top 88%", once: true }
       });
     });
@@ -247,8 +247,6 @@
     // Hero visual drifts slightly as you leave the hero
     gsap.to(".hero-visual", { y: -40, ease: "none", scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1 } });
 
-    // Case-study board slight parallax
-    gsap.to(".board-window", { y: -24, ease: "none", scrollTrigger: { trigger: ".section-case", start: "top bottom", end: "bottom top", scrub: 1 } });
   }
 
   /* ---------- cursor-tracked glow + tilt on cards ---------- */
@@ -263,7 +261,7 @@
     });
 
     if (hasGsap) {
-      document.querySelectorAll(".board-window, .about-card").forEach(function (el) {
+      document.querySelectorAll(".about-card").forEach(function (el) {
         var setRX = gsap.quickTo(el, "rotationX", { duration: 0.6, ease: "power3.out" });
         var setRY = gsap.quickTo(el, "rotationY", { duration: 0.6, ease: "power3.out" });
         gsap.set(el, { transformPerspective: 1200 });

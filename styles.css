@@ -551,6 +551,8 @@ main, .site-header, .site-footer { position: relative; z-index: 1; }
 .contact-list { margin-top: 26px; display: grid; gap: 12px; }
 .contact-list li { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 15px; }
 .contact-list svg { color: var(--blue); flex: none; }
+.contact-list a { color: var(--text); font-weight: 600; text-decoration: none; }
+.contact-list a:hover { color: var(--blue); }
 
 .contact-side h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; margin-bottom: 14px; color: var(--text); }
 .contact-side h3 + ul + h3 { margin-top: 30px; }

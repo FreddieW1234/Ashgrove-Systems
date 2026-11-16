@@ -526,7 +526,7 @@ main, .site-header, .site-footer { position: relative; z-index: 1; }
   background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow-float);
   display: grid; gap: 22px;
 }
-.about-photo { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 22px; border: 1px solid var(--line); background: var(--bg-2); }
+.about-photo { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 22px; border: 1px solid var(--line); background: var(--bg-2); }
 .about-meta { display: grid; gap: 4px; }
 .about-meta strong { font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; letter-spacing: -.02em; color: var(--text); }
 .about-meta span { color: var(--muted); font-size: 15px; }

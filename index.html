@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ashgrove Systems — The systems behind your Shopify store</title>
+  <meta name="description" content="Shopify storefronts and the back-office systems behind them for UK manufacturers and B2B sellers: staff portals, shipping and labels, Klaviyo emails, trade pricing, integrations. Coventry, Birmingham, Warwickshire and South Wales.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="canonical" href="https://ashgrovesystems.co.uk/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ashgrove Systems — The systems behind your Shopify store">
+  <meta property="og:description" content="Storefronts, staff portals, shipping labels and customer emails that work as one system. Built for UK manufacturers and B2B sellers.">
+  <meta property="og:url" content="https://ashgrovesystems.co.uk/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="bg-glow" aria-hidden="true">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-bar">
+      <a class="brand" href="#top" aria-label="Ashgrove Systems — home">
+        <img src="assets/logo.svg" width="36" height="36" alt="">
+        <span>Ashgrove <b>Systems</b></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#build">What I build</a>
+        <a href="#case-study">Case study</a>
+        <a href="#how">How it works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-primary btn-sm" href="#contact">Book a free process review</a>
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-hero>
+            <span class="dot"></span>
+            Shopify systems for UK manufacturers &amp; B2B sellers
+          </p>
+          <h1 class="hero-title" data-hero>
+            <span class="line"><span>The systems</span></span>
+            <span class="line"><span>behind your</span></span>
+            <span class="line"><span><em>Shopify</em> store.</span></span>
+          </h1>
+          <p class="hero-sub" data-hero>
+            Storefronts, staff portals, shipping labels and customer emails that work as one system, so nothing gets re-keyed and nothing gets missed.
+          </p>
+          <div class="hero-actions" data-hero>
+            <a class="btn btn-primary btn-lg" href="#contact">
+              Book a free process review
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost btn-lg" href="#case-study">See it running at Bite Promotions</a>
+          </div>
+          <ul class="hero-meta" data-hero>
+            <li>Coventry · Birmingham · Warwickshire · South Wales</li>
+            <li>Fixed-price builds</li>
+            <li>Happy to be on site</li>
+          </ul>
+        </div>
+
+        <!-- Animated order flow -->
+        <div class="hero-visual" data-hero>
+          <div class="flow-window" id="flowWindow" aria-label="Animated diagram: a Shopify order flows through the staff portal to a FedEx label, the office printer and a customer email" role="img">
+            <div class="window-bar">
+              <span class="win-dot"></span><span class="win-dot"></span><span class="win-dot"></span>
+              <span class="win-title">Live order flow</span>
+              <span class="win-pill"><span class="pulse"></span>automated</span>
+            </div>
+
+            <div class="flow" id="flow">
+              <div class="flow-rail" aria-hidden="true">
+                <span class="flow-rail-fill" id="flowRailFill"></span>
+                <span class="flow-packet" id="flowPacket"></span>
+              </div>
+
+              <div class="flow-step" data-step="0">
+                <div class="flow-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l1 13H5L6 7Z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg>
+                </div>
+                <div class="flow-text">
+                  <strong>Shopify order</strong>
+                  <span>New order placed on the storefront</span>
+                </div>
+                <span class="flow-status" data-idle="Waiting" data-done="Received">Waiting</span>
+              </div>
+
+              <div class="flow-step" data-step="1">
+                <div class="flow-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 13h4M8 16h8"/></svg>
+                </div>
+                <div class="flow-text">
+                  <strong>Staff portal</strong>
+                  <span>Job sheet, artwork proof, production diary</span>
+                </div>
+                <span class="flow-status" data-idle="Waiting" data-done="In production">Waiting</span>
+              </div>
+
+              <div class="flow-step" data-step="2">
+                <div class="flow-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
+                </div>
+                <div class="flow-text">
+                  <strong>FedEx label</strong>
+                  <span>Created from the order, no re-keying</span>
+                </div>
+                <span class="flow-status" data-idle="Waiting" data-done="Label created">Waiting</span>
+              </div>
+
+              <div class="flow-step" data-step="3">
+                <div class="flow-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg>
+                </div>
+                <div class="flow-text">
+                  <strong>Office printer</strong>
+                  <span>Prints on the Zebra, ready to stick</span>
+                </div>
+                <span class="flow-status" data-idle="Waiting" data-done="Printed">Waiting</span>
+              </div>
+
+              <div class="flow-step" data-step="4">
+                <div class="flow-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                </div>
+                <div class="flow-text">
+                  <strong>Customer email</strong>
+                  <span>Klaviyo “it’s on its way” with tracking</span>
+                </div>
+                <span class="flow-status" data-idle="Waiting" data-done="Sent">Waiting</span>
+              </div>
+            </div>
+
+            <div class="flow-foot">
+              <span>Typed once. Everything else follows.</span>
+              <span class="flow-timer" id="flowTimer">0 re-keys</span>
+            </div>
+          </div>
+          <div class="hero-visual-glow" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#build" aria-label="Scroll to what I build">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ========== MARQUEE ========== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Shopify</span><i></i><span>Staff portals</span><i></i><span>FedEx</span><i></i><span>Royal Mail</span><i></i><span>Pallet bookings</span><i></i><span>Klaviyo</span><i></i><span>Xero</span><i></i><span>Trade pricing</span><i></i><span>B2B product feeds</span><i></i><span>Job sheets</span><i></i><span>Production diaries</span><i></i><span>Warehouse &amp; supplier integrations</span><i></i>
+        <span>Shopify</span><i></i><span>Staff portals</span><i></i><span>FedEx</span><i></i><span>Royal Mail</span><i></i><span>Pallet bookings</span><i></i><span>Klaviyo</span><i></i><span>Xero</span><i></i><span>Trade pricing</span><i></i><span>B2B product feeds</span><i></i><span>Job sheets</span><i></i><span>Production diaries</span><i></i><span>Warehouse &amp; supplier integrations</span><i></i>
+      </div>
+    </div>
+
+    <!-- ========== WHAT I BUILD ========== -->
+    <section class="section" id="build">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow"><span class="dot"></span>What I build</p>
+          <h2 class="section-title">One store. <em>One system.</em><br>No spreadsheets in between.</h2>
+          <p class="section-sub">Most Shopify agencies stop at the storefront. The real work starts when the order lands in your office. I build both halves and make them talk.</p>
+        </div>
+
+        <div class="services">
+          <article class="service-card" data-reveal data-tilt>
+            <span class="service-num">01</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16l-1 13H5L4 7Z"/><path d="M8 10V6a4 4 0 0 1 8 0v4"/></svg>
+            </div>
+            <h3>Shopify storefront</h3>
+            <p>A fast, well-built store that fits how you actually sell: personalised products, quantity breaks, quote requests, trade accounts and the admin set-up to run it.</p>
+            <ul class="tags"><li>Theme build</li><li>Custom apps</li><li>Checkout rules</li></ul>
+          </article>
+
+          <article class="service-card" data-reveal data-tilt>
+            <span class="service-num">02</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 13h4M7 16h10"/></svg>
+            </div>
+            <h3>Staff portal</h3>
+            <p>The screen your office runs on. Orders move through artwork, proofs, production and dispatch with job sheets and a production diary everyone can see.</p>
+            <ul class="tags"><li>Job sheets</li><li>Proof approval</li><li>Production diary</li></ul>
+          </article>
+
+          <article class="service-card" data-reveal data-tilt>
+            <span class="service-num">03</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h11v10H3z"/><path d="M14 10h4l3 3v4h-7"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>
+            </div>
+            <h3>Shipping &amp; labels</h3>
+            <p>FedEx, Royal Mail and pallet bookings created straight from the order and printed on the label printer in your office. Tracking goes back to Shopify automatically.</p>
+            <ul class="tags"><li>FedEx</li><li>Royal Mail</li><li>Pallets</li><li>Zebra printing</li></ul>
+          </article>
+
+          <article class="service-card" data-reveal data-tilt>
+            <span class="service-num">04</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            </div>
+            <h3>Customer emails</h3>
+            <p>Klaviyo flows that fire from real events in your process: proof ready, in production, on its way, reorder reminders. Timed by your system, not by guesswork.</p>
+            <ul class="tags"><li>Klaviyo</li><li>Event-driven flows</li><li>Reorder nudges</li></ul>
+          </article>
+
+          <article class="service-card service-card-wide" data-reveal data-tilt>
+            <span class="service-num">05</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 11.5 17 6.5M7 12.5l10 5"/></svg>
+            </div>
+            <h3>B2B feeds &amp; integrations</h3>
+            <p>Trade pricing and customer-specific catalogues, product feeds for your B2B buyers, and the plumbing to Xero, warehouses and suppliers so stock, invoices and purchase orders stay in step without anyone copying numbers across.</p>
+            <ul class="tags"><li>Trade pricing</li><li>B2B product feeds</li><li>Xero</li><li>Warehouse &amp; supplier APIs</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CASE STUDY ========== -->
+    <section class="section section-case" id="case-study">
+      <div class="container">
+        <div class="case-grid">
+          <div class="case-copy">
+            <p class="eyebrow" data-reveal><span class="dot"></span>Case study</p>
+            <h2 class="section-title" data-reveal>Bite Promotions <em>&amp; BiteBoard</em></h2>
+            <p class="section-sub" data-reveal>
+              Bite Promotions sells promotional merchandise: printed, branded, personalised products with artwork to approve on every job. I built their Shopify site at <a href="https://bitepromotions.co.uk" target="_blank" rel="noopener">bitepromotions.co.uk</a> and BiteBoard, the internal system their office runs on every day.
+            </p>
+
+            <ol class="case-steps" data-reveal>
+              <li><span>01</span> Order comes in on Shopify</li>
+              <li><span>02</span> Artwork and proofs handled in BiteBoard</li>
+              <li><span>03</span> Production tracked job by job</li>
+              <li><span>04</span> FedEx label printed on the office Zebra</li>
+              <li><span>05</span> Klaviyo “it’s on its way” email, automatically</li>
+            </ol>
+            <p class="case-line" data-reveal>No re-keying at any step.</p>
+
+            <div class="case-proof" data-reveal>
+              <div class="stat">
+                <span class="stat-num todo">TODO</span>
+                <span class="stat-label">hours per week saved<br><small class="todo-note">TODO: replace with the real figure from Bite</small></span>
+              </div>
+              <blockquote class="quote">
+                <p class="todo">TODO: add a short quote from Bite Promotions here.</p>
+                <cite>TODO: name, role, Bite Promotions</cite>
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- BiteBoard mock-up -->
+          <div class="case-visual" data-reveal>
+            <div class="board-window" data-tilt>
+              <div class="window-bar">
+                <span class="win-dot"></span><span class="win-dot"></span><span class="win-dot"></span>
+                <span class="win-title">BiteBoard · Today</span>
+                <span class="win-pill"><span class="pulse"></span>synced with Shopify</span>
+              </div>
+              <div class="board">
+                <div class="board-col">
+                  <h4>Orders <b>3</b></h4>
+                  <div class="card"><span class="card-title">Printed mugs</span><span class="chip">New</span></div>
+                  <div class="card"><span class="card-title">Branded notebooks</span><span class="chip">New</span></div>
+                  <div class="card"><span class="card-title">Tote bags</span><span class="chip chip-amber">Awaiting artwork</span></div>
+                </div>
+                <div class="board-col">
+                  <h4>Artwork &amp; proofs <b>2</b></h4>
+                  <div class="card"><span class="card-title">Embroidered polos</span><span class="chip chip-amber">Proof sent</span></div>
+                  <div class="card"><span class="card-title">Lanyards</span><span class="chip">Approved</span></div>
+                </div>
+                <div class="board-col">
+                  <h4>Production <b>2</b></h4>
+                  <div class="card"><span class="card-title">Water bottles</span><span class="chip">On press</span><span class="bar"><i style="--w:70%"></i></span></div>
+                  <div class="card"><span class="card-title">Pens, 2 colours</span><span class="chip">Packing</span><span class="bar"><i style="--w:92%"></i></span></div>
+                </div>
+                <div class="board-col">
+                  <h4>Shipped <b>4</b></h4>
+                  <div class="card card-done"><span class="card-title">Hi-vis vests</span><span class="chip chip-done">FedEx · label printed</span></div>
+                  <div class="card card-done"><span class="card-title">USB sticks</span><span class="chip chip-done">Email sent</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="board-label">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg>
+              Illustrative view of BiteBoard, not live data
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section class="section section-how" id="how">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow"><span class="dot"></span>How it works</p>
+          <h2 class="section-title">Start with an hour. <em>Finish with a system.</em></h2>
+          <p class="section-sub">No long discovery phase, no retainer before anything exists. We look at your process, agree a fixed price for the first phase, and build.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step-line" aria-hidden="true"><span id="stepLineFill"></span></div>
+
+          <article class="step" data-reveal>
+            <span class="step-num">1</span>
+            <h3>Free process review</h3>
+            <p>One hour, in your office if you like. We walk through how an order moves today: who types what, where the spreadsheets live, where things slip. You leave with a written plan whether or not you hire me.</p>
+            <span class="step-tag">Free · 1 hour</span>
+          </article>
+
+          <article class="step" data-reveal>
+            <span class="step-num">2</span>
+            <h3>Fixed-price build</h3>
+            <p>I build in phases, each with a fixed price and a clear scope, so the first useful piece is live in weeks rather than months. Labels first, then the portal, then the emails, or whatever order moves the needle for you.</p>
+            <span class="step-tag">Phased · fixed price</span>
+          </article>
+
+          <article class="step" data-reveal>
+            <span class="step-num">3</span>
+            <h3>Monthly support</h3>
+            <p>Once it is running, a monthly retainer keeps it running: carrier changes, Shopify updates, new product lines, the next integration. You talk to the person who wrote the code.</p>
+            <span class="step-tag">Monthly retainer</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section section-about" id="about">
+      <div class="container about-grid">
+        <div class="about-visual" data-reveal>
+          <div class="about-card" data-tilt>
+            <div class="about-monogram">FW</div>
+            <div class="about-meta">
+              <strong>Freddie Wadley</strong>
+              <span>Founder &amp; developer</span>
+              <span class="about-loc">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-7 7-12a7 7 0 1 0-14 0c0 5 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                Coventry, UK
+              </span>
+            </div>
+            <p class="todo-note about-todo">TODO: replace monogram with a photo of Freddie</p>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <p class="eyebrow" data-reveal><span class="dot"></span>About</p>
+          <h2 class="section-title" data-reveal>One person. <em>Writes the code himself.</em></h2>
+          <div class="about-text" data-reveal>
+            <p>Ashgrove Systems is run by Freddie Wadley from Coventry. There is no account manager and no outsourced dev team. The person you meet at the process review is the person who designs the system, writes the code and answers the phone when something changes.</p>
+            <p>Freddie is in the final years of an Accounting &amp; Finance degree at the University of Warwick, which is why the systems he builds care about the numbers as much as the screens: invoices that reconcile in Xero, trade prices that are right, stock that matches.</p>
+            <p>He works with businesses in Coventry, Birmingham, Warwickshire and South Wales, and is happy to be on site when that is the quickest way to understand how your office actually works.</p>
+          </div>
+          <ul class="about-facts" data-reveal>
+            <li><strong>Based in</strong> Coventry</li>
+            <li><strong>Stack</strong> Shopify, Klaviyo, FedEx &amp; Royal Mail APIs, Xero</li>
+            <li><strong>Works</strong> remotely or on site</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section section-contact" id="contact">
+      <div class="container">
+        <div class="contact-panel" data-reveal>
+          <div class="contact-copy">
+            <p class="eyebrow"><span class="dot"></span>Contact</p>
+            <h2 class="section-title">Book a <em>free process review.</em></h2>
+            <p class="section-sub">Tell me what you sell and roughly how an order moves through your office today. I will reply within one working day to find an hour that suits.</p>
+
+            <div class="email-row">
+              <a class="email-link" id="emailLink" href="mailto:freddie@ashgrovesystems.co.uk?subject=Free%20process%20review">freddie@ashgrovesystems.co.uk</a>
+              <button class="copy-btn" id="copyEmail" type="button" data-email="freddie@ashgrovesystems.co.uk" aria-label="Copy email address">
+                <svg class="ico-copy" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+                <svg class="ico-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>
+                <span class="copy-label">Copy</span>
+              </button>
+            </div>
+
+            <ul class="contact-list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.7a2 2 0 0 1 1.7 2Z"/></svg>
+                <span class="todo">TODO: phone number</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                <span class="todo">TODO: LinkedIn profile link</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-side">
+            <h3>Areas covered</h3>
+            <ul class="areas">
+              <li>Coventry</li>
+              <li>Birmingham</li>
+              <li>Warwickshire</li>
+              <li>South Wales</li>
+              <li class="areas-more">Remote anywhere in the UK</li>
+            </ul>
+            <h3>Good fit if you</h3>
+            <ul class="fit-list">
+              <li>Sell on Shopify, or are moving to it</li>
+              <li>Turn over roughly £500k to £10m</li>
+              <li>Make, print, personalise or ship real products</li>
+              <li>Have an office that still re-keys orders somewhere</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="Ashgrove Systems — back to top">
+          <img src="assets/logo.svg" width="32" height="32" alt="">
+          <span>Ashgrove <b>Systems</b></span>
+        </a>
+        <p>Shopify storefronts and the back-office systems behind them, for UK manufacturers and B2B sellers.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#build">What I build</a>
+        <a href="#case-study">Case study</a>
+        <a href="#how">How it works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-legal">
+        <p>&copy; <span id="year">2026</span> Ashgrove Systems. Coventry, UK.</p>
+        <p>Shopify is a trademark of Shopify Inc. Ashgrove Systems is an independent developer.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

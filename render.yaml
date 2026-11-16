@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ashgrove-systems
+    runtime: static
+    staticPublishPath: .
+    buildCommand: ""
+    domains:
+      - ashgrovesystems.co.uk
+      - www.ashgrovesystems.co.uk
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=604800

@@ -180,8 +180,8 @@ main, .site-header, .site-footer { position: relative; z-index: 1; }
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
   height: 76px;
 }
-.brand { display: inline-flex; align-items: center; gap: 12px; font-family: var(--font-display); font-weight: 600; font-size: 17px; letter-spacing: -0.01em; white-space: nowrap; color: var(--text); }
-.brand b { font-weight: 800; color: var(--blue); }
+.brand { display: inline-flex; align-items: center; gap: 12px; font-family: var(--font-display); font-weight: 700; font-size: 17px; letter-spacing: -0.01em; white-space: nowrap; color: var(--text); }
+.brand b { font-weight: 700; color: var(--blue); }
 .brand img { filter: drop-shadow(0 6px 14px rgba(43,120,228,.25)); }
 
 .nav { display: flex; gap: 6px; }

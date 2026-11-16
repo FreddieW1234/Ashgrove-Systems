@@ -526,14 +526,7 @@ main, .site-header, .site-footer { position: relative; z-index: 1; }
   background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow-float);
   display: grid; gap: 22px;
 }
-.about-monogram {
-  aspect-ratio: 1; display: grid; place-items: center; border-radius: 22px;
-  font-family: var(--font-display); font-weight: 800; font-size: clamp(4rem, 9vw, 7rem); letter-spacing: -.06em;
-  background:
-    radial-gradient(circle at 30% 20%, rgba(255,255,255,.9), transparent 50%),
-    linear-gradient(160deg, #dcebff, #b9d6ff);
-  border: 1px solid rgba(43,120,228,.2); color: var(--blue-deep);
-}
+.about-photo { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 22px; border: 1px solid var(--line); background: var(--bg-2); }
 .about-meta { display: grid; gap: 4px; }
 .about-meta strong { font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; letter-spacing: -.02em; color: var(--text); }
 .about-meta span { color: var(--muted); font-size: 15px; }

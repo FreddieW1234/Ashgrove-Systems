@@ -692,6 +692,7 @@ main, .site-header, .site-footer { position: relative; z-index: 1; }
 .legal p, .legal li { color: var(--muted); font-size: 1rem; line-height: 1.7; }
 .legal p + p { margin-top: 12px; }
 .legal ul { margin: 12px 0; padding-left: 1.2em; list-style: disc; display: grid; gap: 6px; }
+.legal ol { margin: 12px 0; padding-left: 1.5em; list-style: decimal; display: grid; gap: 6px; }
 .legal li::marker { color: var(--blue); }
 .legal strong { color: var(--text); font-weight: 600; }
 .legal a:not(.legal-back) { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
